@@ -1,0 +1,58 @@
+@import url("reset.css");
+
+
+.colunas {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: none;
+    height: 100vh;
+}
+
+.coluna__fixa {
+    background-color: gray;
+    padding: 1em;
+
+}
+
+.lista__cab {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 1em;
+    font-size: 1.25rem;
+}
+
+.icone__contato,
+.nome {
+    margin: 1em;
+}
+
+.nome {
+    font-size: 1.65rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.circle {
+    display: flex;
+    background-color: #ddd;
+    border-radius: 50%;
+    height: 15em;
+    width: 15em;
+    background-image: url("assets/imagem_perfil.jpg");
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.lista__icones {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.icone__contato {
+    height: 2.5em;
+    width: 2.5em;
+}
